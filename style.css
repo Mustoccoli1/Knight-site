@@ -55,11 +55,33 @@ ul {
   }
   .mc:hover{
 
-    background: green;
+    background: palevioletred;
     text-decoration: none;
     color: #6900d1;
 
 
+  }
+  .cc{
+    text-decoration: none;
+    border: 2px solid #6900d1;
+    padding: 12px;
+    display: inline-block;
+    width: 150px;
+    color: #6900d1;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    list-style: none;
+    margin-left: 25px;
+
+  }
+  .cc:hover{
+
+        background: palevioletred;
+        text-decoration: none;
+        color: #6900d1;
   }
   .whatwe{
 
@@ -73,4 +95,22 @@ ul {
 
     margin-left: 300px;
 
+  }
+  .whatism{
+
+
+    color: #6900d1;
+    margin-top: 400px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .whatism:hover{
+
+    text-decoration: none;
+    color: black;
+  }
+  .logo{
+
+    margin-top: -50px;    
+    margin-left: 900px;
   }
