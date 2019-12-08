@@ -1,109 +1,76 @@
-body{
+.header{
 
-  background: #42455a;
+    background: #544242;
+
 
 }
-.logo{
+.active-home{
 
-
-  margin-left: 700px;
-  margin-top: 100px;
-}
-.dcr{
-
-
-  color: #ffffff;
-  margin-top: 300px;
-  margin-left: 350px;
-}
-.dclg{
-
-  margin-top: 25px;
-  margin-left: 430px;
-}  
-*{
-
-margin: 0;
-padding: 0;
-font-family: sans-serif;
+    border-bottom: 2px solid #fff;
 
 }
- .menu ul{
+.nav-link:hover{
 
-  display: inline-flex;
-  margin: 50px;
+    border-bottom: 2px solid #fff;
 
- }
- .menu ul li{
+}
+.nav-link{
 
-  list-style: none;
-  margin: 0 20px;
+    color: #fff !important;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+    display: unset;
+    margin-left: 20px;  
+    font-family: sans-serif;
+}
+.links{
 
+    margin-left: 750px;
 
- }
- .home{
+}
+.Download{
+    border: 2px solid #fff;
+    padding: 12px;
+    display: inline-block;
+    background: #6900d1;
+}
+.mc{
 
-  color: #0099cc;
-  text-decoration: none;
+    text-decoration: none;
+    border: 2px solid #6900d1;
+    padding: 12px;
+    display: inline-block;
+    width: 150px;
+    color: #6900d1;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    list-style: none;
+    margin-left: 300px;
+}
+ul {
+    list-style-type: none;
+  }
+  .mc:hover{
 
- }
- .social{
-
-  color: #b2b1b1;
-  text-decoration: none;
-
- }
- .contact{
-
-  color: #b2b1b1;
-  text-decoration: none;
-
- }
- .ip{
-
-  color: #ffffff;
-  text-decoration: none;
-  margin-top: 100px;
-  margin-left: 200px;
-
- }
- .ipa{
-
-  margin-left: 200px;
-  font-size: 30px;
-  color: #b2b1b1;
-
- }
- .logo img{
-  margin-top: -7px;
-  margin-right: 48px;
-   width: 100px ; 
-
- }
- .whatwe{
-  position: static;
-  margin-right:  50px;
-  margin-left: 200px;
-  color: #ffffff;
-
- }
- .weoffer{
-
-  position: absolute;
-  margin-right:  50px;
-  margin-left: 200px;
-  color: #b2b1b1;
- }
- .back img{
-  margin-top: -7px;
-  margin-right: 48px;
-   width: 100px ; 
-
- }
- .copyright{
+    background: green;
+    text-decoration: none;
+    color: #6900d1;
 
 
-  color: #b2b1b1;
-  margin-top: 700px;
+  }
+  .whatwe{
 
- }
+
+    color: #6900d1;
+    font-weight: bold;
+    margin-top: 350px;
+    margin-left: 300px;
+  }
+  .weoffer{
+
+    margin-left: 300px;
+
+  }
