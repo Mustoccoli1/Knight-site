@@ -1,123 +1,174 @@
-body{
+.header{
 
-    background: #42455a;
-    height: 100%;
-    width: 100%;  
+    background: #544242;
+  
   
   }
-  *{
+  .active-home{
   
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    border-bottom: 2px solid #fff;
   
   }
-   .menu ul{
+  .nav-link:hover{
   
-    display: inline-flex;
-    margin: 50px;
+    border-bottom: 2px solid #fff;
   
-   }
-   .menu ul li{
+  }
+  .nav-link{
   
+    color: #fff !important;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+    display: unset;
+    margin-left: 20px;  
+    font-family: sans-serif;
+  }
+  .links{
+  
+    margin-left: 750px;
+  
+  }
+  .Download{
+    border: 2px solid #fff;
+    padding: 12px;
+    display: inline-block;
+    background: #6900d1;
+  }
+  .mc{
+  
+    text-decoration: none;
+    border: 2px solid #6900d1;
+    padding: 12px;
+    display: inline-block;
+    width: 150px;
+    color: #6900d1;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
     list-style: none;
-    margin: 0 20px;
+    margin-left: 300px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .mc:hover{
   
-  
-   }
-   .twitterdesc{
-
-    margin-left: 550px;
-    color: #b2b1b1;
-    margin-top: -75px;;
-   }
-   .twitter{
-
-    color: aqua;
+    background: green;
     text-decoration: none;
-    font-size: 23px;
-    margin-left: 585px;
-    margin-top: -100px; 
-
-   }  
-   .dcdesc{
-
-    color: #b2b1b1;
-    margin-left: 235px;
-
-   }
-   .twitterimg{
-    margin-left: 100px;
-
-   }
-   .dcimg{
-
-    margin-top: 100px;
-    margin-left: 250px;
-
-   }
-   .dc{
-
-    color: aqua;
+    color: #6900d1;
+  
+  
+  }
+  .whatwe{
+  
+  
+    color: #6900d1;
+    font-weight: bold;
+    margin-top: 350px;
+    margin-left: 300px;
+  }
+  .weoffer{
+  
+    margin-left: 300px;
+  
+  }
+  tv18bxe7kq.header{
+  
+    background: #544242;
+  
+  
+  }
+  .active-home{
+  
+    border-bottom: 2px solid #fff;
+  
+  }
+  .nav-link:hover{
+  
+    border-bottom: 2px solid #fff;
+  
+  }
+  .nav-link{
+  
+    color: #fff !important;
+    font-size: 15px;
+    padding: 0 0 5px 0;
+    display: unset;
+    margin-left: 20px;  
+    font-family: sans-serif;
+  }
+  .links{
+  
+    margin-left: 750px;
+  
+  }
+  .Download{
+    border: 2px solid #fff;
+    padding: 12px;
+    display: inline-block;
+    background: #6900d1;
+  }
+  .mc{
+  
     text-decoration: none;
-    font-size: 23px;
-    margin-left: 285px;
-    margin-top: 200px;
-   }
-   .home{
+    border: 2px solid #6900d1;
+    padding: 12px;
+    display: inline-block;
+    width: 150px;
+    color: #6900d1;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    list-style: none;
+    margin-left: 300px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .mc:hover{
   
-    color: #b2b1b1;
+    background: palevioletred;
     text-decoration: none;
+    color: #6900d1;
   
-   }
-   .social{
   
-    color: #0099cc;
+  }
+  .whatwe{
+  
+  
+    color: #6900d1;
+    font-weight: bold;
+    margin-top: 350px;
+    margin-left: 300px;
+  }
+  .weoffer{
+  
+    margin-left: 300px;
+  
+  }
+  .cc{
+  
     text-decoration: none;
+    border: 2px solid #6900d1;
+    padding: 12px;
+    display: inline-block;
+    width: 150px;
+    color: #6900d1;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    list-style: none;
+    margin-left: 25px;
+  }
+  .cc:hover{
   
-   }
-   .contact{
-  
-    color: #b2b1b1;
     text-decoration: none;
-  
-   }
-   .ip{
-  
-    color: #b2b1b1;
-    text-decoration: none;
-  
-   }
-   .logo img{
-    margin-top: -7px;
-    margin-right: 48px;
-     width: 100px ; 
-  
-   }
-   .whatwe{
-    position: static;
-    margin-right:  50px;
-    margin-left: 200px;
-    color: #ffffff;
-  
-   }
-   .weoffer{
-  
-    position: absolute;
-    margin-right:  50px;
-    margin-left: 200px;
-    color: #b2b1b1;
-   }
-   .back img{
-    margin-top: -7px;
-    margin-right: 48px;
-     width: 100px ; 
-  
-   }
-   .copyright{
-  
-  
-    color: #b2b1b1;
-    margin-top: 700px;
-  
-   }
+    color: #6900d1;
+    background: palevioletred;
+  }
